@@ -21,20 +21,20 @@
   <div class="container">
     <div class="weather-wrapper">
      <div class="weather">
-      <div class="overview">
-     
-      <form id="enter-city">
+      <form id="search-form" class="mb-3">
         <div class="row">
           <div class="col-9">
-            <input type="search" class="form-control" autofocus="on" autocomplete="off" id="enter-yourcity"
+            <input type="search" class="form-control" autofocus="on" autocomplete="off" id="city-input"
               placeholder="Enter a city" />
           </div>
           <div class="col-3">
-            <button type="submit" class="button1">Search</button>
+            <input type="submit" value = "Search" class="btn btn-primary" w-100 />
           </div>
         </div>
-
+      
       </form>
+      <div class="overview">
+     
 <h1 id="city"></h1>
           <ul>
             <li>Last updated: <span  id="date"></span></li>
@@ -45,7 +45,7 @@
       <div class="row">
         <div class="col-6">
           <div class="d-flex weather-temperature">
-            <img src="" id="icon" />
+            <img src="" alt="Clear" id="icon" />
             <div>
               <strong id="temperature">13</strong><span class="units">°C|<a href="#">°F</a></span>
             </div>

@@ -33,19 +33,6 @@ li:first-letter {
     color: blue;
 }
 
-.button1 {
-    padding: 5px 23px;
-    color: rgb(14, 13, 13);
-    background: #ebedf9;
-    border: 2px solid #4284e2;
-    transition: all 150ms ease-in-out;
-}
-
-button:hover {
-    background: #b0b2bd;
-    color: rgb(14, 13, 13);
-    border: 2px solid #b0b2bd;
-}
 
 .weatherCol {
     font-size: 20px;
