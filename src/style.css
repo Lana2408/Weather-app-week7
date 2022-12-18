@@ -3,16 +3,9 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
-.weather {
-    border: 1px solid #e7e7e7;
-    border-radius: 5px;
-    padding: 20px 20px 20px 20px;
-    max-width: 600px;
-    margin: 20px auto;
-}
 
 h1 {
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom: 0;
 }
 
@@ -50,34 +43,8 @@ button:hover {
     border: 2px solid #b0b2bd;
 }
 
-.button2 {
-    padding: 5px 23px;
-    color: black;
-    background: #e4f6f5;
-    border: 2px solid #51b8f3;
-    transition: all 150ms ease-in-out;
-}
-
-
-
-.Current {
-    margin-top: 15px;
-}
-
-.Days {
-    text-align: center;
-    line-height: 28px;
-    margin-top: 40px;
-}
-
 .weatherCol {
     font-size: 20px;
-}
-
-.units {
-    position: relative;
-    top: -17px;
-    font-size: 16px;
 }
 
 .open-source {
@@ -86,4 +53,39 @@ button:hover {
 
 .open-source:hover {
     text-decoration: underline;
+}
+
+
+.weather-wrapper {
+    max-width: 600px;
+    margin: 20px auto;
+}
+.weather {
+    border: 1px solid #e7e7e7;
+    border-radius: 5px;
+    padding: 20px 20px 20px 20px;
+}
+
+.overview {
+    margin-bottom: 20px;
+}
+
+.weather-temperature img {
+    margin-right: 5px;
+    height: 64px;
+    width: 64px;
+}
+
+.weather-temperature strong {
+    color: black;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 1;
+
+}
+
+.weather-temperature .units {
+    position: relative;
+    font-size: 16px;
+    top: -34px;
 }
