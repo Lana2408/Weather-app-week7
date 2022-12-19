@@ -33,11 +33,6 @@ li:first-letter {
     color: blue;
 }
 
-
-.weatherCol {
-    font-size: 20px;
-}
-
 .open-source {
     text-decoration: none;
 }
@@ -79,4 +74,20 @@ li:first-letter {
     position: relative;
     font-size: 16px;
     top: -34px;
+}
+
+.weather-temperature .active {
+    color: black;
+    cursor: default;
+    text-decoration: none;
+}
+
+.weather-temperature .active:hover {
+    color: var(--bs-link-color);
+    cursor: default;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
 }
